@@ -65,7 +65,7 @@ a:active {
 body {
     font-size: 16px; 
     background-color:#000000;
-   
+    background-image: url("images/stars3.gif") fixed center;
     background: url("images/stars3.gif") fixed center; 
 }
 h1 {
