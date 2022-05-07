@@ -29,7 +29,7 @@ html,body,#container{
 html {
 background-color:#000000;
 background-repeat: repeat;
-
+overflow-x: hidden;
 image-rendering: crisp-edges;
 image-rendering: -moz-crisp-edges;          /* Firefox */
 image-rendering: -o-crisp-edges;            /* Opera */
