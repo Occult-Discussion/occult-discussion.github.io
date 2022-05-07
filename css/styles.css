@@ -1,3 +1,26 @@
+@supports(-webkit-text-security:circle){ 
+h1{
+font-weight:500
+}
+h2{
+font-weight:500
+}
+h3{
+font-weight:500
+}
+.dropdown-content a{
+font-weight:300;opacity:.75
+}
+nav{font-weight:500
+}
+#container{
+width:100%;overflow-x:hidden
+}
+html,body,#container{
+-webkit-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0)
+}
+}
+
 @font-face { font-family: "luminari"; src: url('fonts/Luminari-Regular.ttf'); } 
 .luminari { font-family: "luminari";}
 
