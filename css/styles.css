@@ -24,8 +24,7 @@ body {
     background-image: url("images/stars3.gif");
     background-repeat: repeat;
     background-size: cover;
-height: 100%; 
-width:100%;
+
 overflow:auto; position:relative;
 }
 
