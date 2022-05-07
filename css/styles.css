@@ -51,7 +51,7 @@ a:active {
 }
 body {
     font-size: 16px; 
-   
+    background-color:#000000;
    
     background: url("images/stars3.gif") fixed center; 
     
