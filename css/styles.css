@@ -1,3 +1,21 @@
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+
+body {
+    font-size: 16px; 
+    background-color:#000000;
+    
+    background: url("images/stars3.gif"); 
+    background-image: url("images/stars3.gif");
+    background-repeat: repeat;
+}
+
+
+}
+
+
+
+
 @supports(-webkit-text-security:circle){ 
 html,body,#container{
 -webkit-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0)
@@ -68,7 +86,7 @@ body {
     
     background: url("images/stars3.gif") fixed center; 
     background-image: url("images/stars3.gif") fixed center;
-   background-repeat: repeat;
+    background-repeat: repeat;
 }
 h1 {
     text-align: center;
