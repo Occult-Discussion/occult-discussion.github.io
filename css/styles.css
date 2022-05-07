@@ -27,6 +27,13 @@ body {
 overflow:auto; position:relative;
 }
 
+#container {
+
+    background: url("images/stars3.gif"); 
+    background-image: url("images/stars3.gif");
+
+
+}
 
 }
 @supports(-webkit-text-security:circle){ 
