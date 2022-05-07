@@ -1,0 +1,275 @@
+@font-face { font-family: "luminari"; src: url('fonts/Luminari-Regular.ttf'); } 
+.luminari { font-family: "luminari";}
+
+@font-face { font-family: "luminari"; src: url('fonts/Luminari-Regular.ttf'); } 
+.luminari { font-family: "luminari"; font-size: 3em; }
+
+@font-face { font-family: "georgia"; src: url('fonts/georgia.woff'); } 
+.georgia { font-family: "georgia";
+}
+
+@font-face { font-family: "luminari"; src: url('../fonts/Luminari-Regular.ttf'); } 
+.luminari { font-family: "luminari";}
+
+@font-face { font-family: "luminari"; src: url('../fonts/Luminari-Regular.ttf'); } 
+.luminari { font-family: "luminari"; font-size: 3em; }
+
+@font-face { font-family: "georgia"; src: url('../fonts/georgia.woff'); } 
+.georgia { font-family: "georgia";
+}
+
+
+
+a:link {
+    color: rgb(191, 152, 52);
+    text-decoration: none;
+    text-shadow: 0px 0px 0 #89542C, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+a:visited {
+    color: rgb(191, 152, 52);
+    background-color: transparent;
+    text-decoration: none;
+    text-shadow: 0px 0px 0 #89542C, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+a:hover {
+    color: rgb(191, 152, 52);
+    background-color: transparent;
+    text-decoration: none;
+    text-shadow: 0px 0px 0 #89542C, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+a:active {
+    color: rgb(191, 152, 52); 
+    background-color: transparent;
+    text-decoration: none;
+    text-shadow: 0px 0px 0 #89542C, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+body {
+    font-size: 16px; 
+   
+   
+    background: url("images/stars3.gif") fixed center; 
+    
+   
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 25px;
+    color: rgb(191, 152, 52);
+}    
+h2 {
+    text-align: left;
+    padding-left: 85px;
+    color: rgb(191, 152, 52);
+    font-family: luminari;
+ }
+h3 {
+    text-align: left;
+    padding-left: 85px;
+    color: rgb(191, 152, 52);
+ }   
+#content {
+    padding: 5px;
+    column-width: 33em;
+    text-align: justify; 
+    color: #FFF;
+    margin-bottom: 10px;
+}
+#container {
+	width: 1000px;
+	padding: 15px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,1);
+    border: 2px solid rgb(191, 152, 52);
+}     
+#banner{
+    background-image: url(images/occult-banner.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 195px;
+    width: 468px;
+    margin: 0 auto;
+    border: 2px solid rgb(191, 152, 52);
+}
+p {
+    width: 33em;
+    padding-left: 85px;
+    font-family: georgia;
+    color: rgb(191, 152, 52); 
+    
+}
+.textbox {
+    font-size: 12px;
+}       
+#box {
+    column-width: 33em;
+    text-align: left; 
+}       
+hr {
+    border: 1px solid rgb(191, 152, 52);
+    border-radius: 1px;
+    width:50%; 
+    margin-bottom: 20px;
+    margin-left:5% !important; 
+    margin-right:55% !important;
+    
+    /*  margin-left:5% !important; 
+    margin-right:55% !important; */
+}
+#footer_nav {
+    width: auto;
+    line-height: 14px;  
+}
+li { 
+    padding: 5px 5px;   
+} 
+ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+nav {
+	margin-bottom: 0px;
+    padding-left: 300px;
+    position: relative; 
+    top: -55px;
+}
+.button1 {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid rgb(191, 152, 52);
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.55em;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-align:center;
+    background-color: black;
+    background-position: left;
+    font-family: luminari;
+    font-size:0.98em;
+    color: rgb(191, 152, 52);
+cursor: pointer;
+} 
+.button1:hover {
+    background-color: #101010;    
+    position: relative;
+    background-image: url(images/starglitter.gif); opacity: 0.65;
+    background-repeat:no-repeat; 
+    background-position: left;
+    background-size: cover;
+    color: rgb(191, 152, 52);
+cursor: pointer;
+    
+}
+.dropbtn {
+  background-color: rgb(191, 152, 52);
+  border: 1px solid rgb(191, 152, 52);
+  padding:0.35em 1.2em;
+  transition: all 0.7s;
+   font-family: georgia;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: georgia;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: url("../images/stars3.gif") fixed center;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: georgia;
+}
+.dropdown-content a {
+  color: rgb(191, 152, 52);
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+  font-family: georgia;
+}
+.dropdown-content a:hover {
+    background-image: url(images/moonl.png); opacity: 0.3;
+    background-repeat:no-repeat; 
+    background-position: left;
+    background-size: contain
+}    
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #101010;
+}
+#sidebar {
+	float: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+} 
+header {
+    height: 160px;
+    padding-left: 5px;
+    }
+#logo {
+    position: relative;
+    left: 10px;
+    bottom: 200px;
+    width: 270px;
+}
+#logo:hover {
+    background: url(images/baphomet2.png) no-repeat;
+    position: relative;
+}
+#logo p {
+    font-family: luminari;
+    position: relative;
+    bottom: 45px;
+    right: 50px;
+    font-size: 1.5em;
+}
+footer { 
+    background-color: black;
+    margin-bottom: 20px;
+    margin-left:22.5%;
+    width: 1032px;
+    color: rgb(191, 152, 52);
+    opacity: 0.77;
+    position: fixed;
+    bottom: 0;
+    /* Height of the footer*/ 
+    height: 100px;
+    border: 2px solid rgb(191, 152, 52);
+   
+}
+#footer_nav {
+   margin-top: 20px;
+    width: auto;
+    line-height: 14px;
+    padding-left: 15px;
+    padding-right: 95px;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+#footer_nav2 {
+    width: auto;
+    line-height: 14px;
+    padding-left: 287px;
+    padding-right: 315px;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+}
+#top-button {
+    float: right;
+    position: relative;
+    left: -30px;
+    top: -85px;
+}
+#top-button:hover {
+    opacity: 0.3; 
+}  
+.foothov:hover {
+    opacity: 0.3;
+}  

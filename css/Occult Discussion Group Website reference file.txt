@@ -1,0 +1,28 @@
+rgb(191, 151, 48);
+rgb(219, 175, 59);
+rgb(191, 152, 52); (Dark Background Header fonts)
+rgb(191, 152, 52); (Dark Background body content fonts)
+rgb(191, 152, 52); (Border Color)
+
+#DBAF3B;
+#C29C21;   (Title Color)
+
+rgb(191, 152, 52)  (border color when on dark backgrounds)
+
+
+
+Headers: Luminari 
+Headers: Buckingham 
+Body: Georgia
+Body: Luminari
+Body: Terminal
+
+https://www.herzing.edu/blog/how-create-successful-study-guide
+http://akmedia.weebly.com/building-a-research-guide.html
+https://acrl.ala.org/IS/wp-content/uploads/2014/05/2012spring.pdf
+https://www.theblackvault.com/documentarchive/
+http://esoteric.msu.edu/Merkur.html
+https://www.amsterdamhermetica.nl/online-resources/archives-libraries-online/
+https://hermetic.com/
+https://dohistory.org/on_your_own/toolkit/oralHistory.html
+https://sfpl.bibliocommons.com/list/share/534134407/878617787

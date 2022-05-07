@@ -1,0 +1,25 @@
+/* Coolors Exported Palette - https://coolors.co/8b0000-765e1f-bf9730-000000-866921 */
+
+/* CSV */
+8B0000,765E1F,BF9730,000000,866921
+
+/* With # */
+#8B0000, #765E1F, #BF9730, #000000, #866921
+
+/* Array */
+["8B0000","765E1F","BF9730","000000","866921"]
+
+/* Object */
+{"Dark Red":"8B0000","Field Drab":"765E1F","Satin Sheen Gold":"BF9730","Black":"000000","Bistre Brown":"866921"}
+
+/* Extended Array */
+[{"name":"Dark Red","hex":"8B0000","rgb":[139,0,0],"cmyk":[0,100,100,45],"hsb":[0,100,55],"hsl":[0,100,27],"lab":[28,51,41]},{"name":"Field Drab","hex":"765E1F","rgb":[118,94,31],"cmyk":[0,20,74,54],"hsb":[43,74,46],"hsl":[43,58,29],"lab":[41,3,38]},{"name":"Satin Sheen Gold","hex":"BF9730","rgb":[191,151,48],"cmyk":[0,21,75,25],"hsb":[43,75,75],"hsl":[43,60,47],"lab":[65,5,57]},{"name":"Black","hex":"000000","rgb":[0,0,0],"cmyk":[0,0,0,100],"hsb":[0,0,0],"hsl":[0,0,0],"lab":[0,0,0]},{"name":"Bistre Brown","hex":"866921","rgb":[134,105,33],"cmyk":[0,22,75,47],"hsb":[43,75,53],"hsl":[43,60,33],"lab":[46,4,43]}]
+
+/* XML */
+<palette>
+  <color name="Dark Red" hex="8B0000" r="139" g="0" b="0" />
+  <color name="Field Drab" hex="765E1F" r="118" g="94" b="31" />
+  <color name="Satin Sheen Gold" hex="BF9730" r="191" g="151" b="48" />
+  <color name="Black" hex="000000" r="0" g="0" b="0" />
+  <color name="Bistre Brown" hex="866921" r="134" g="105" b="33" />
+</palette>
