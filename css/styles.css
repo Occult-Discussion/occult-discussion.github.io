@@ -29,6 +29,7 @@ overflow:auto; position:relative;
 
 #container {
 opacity: 0.77;
+visibility: visible;
 }
 
 }
