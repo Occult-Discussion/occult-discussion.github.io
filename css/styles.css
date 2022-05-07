@@ -29,7 +29,7 @@ html,body,#container{
 html {
 background-color:#000000;
 width: 100%;
-background-image: url("images/stars3.gif") fixed center;
+
 
 image-rendering: crisp-edges;
 image-rendering: -moz-crisp-edges;          /* Firefox */
@@ -65,8 +65,9 @@ a:active {
 body {
     font-size: 16px; 
     background-color:#000000;
-    background-image: url("images/stars3.gif") fixed center;
+    
     background: url("images/stars3.gif") fixed center; 
+    background-image: url("images/stars3.gif") fixed center;
 }
 h1 {
     text-align: center;
