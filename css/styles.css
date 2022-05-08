@@ -289,7 +289,7 @@ footer {
     position: fixed;
     bottom: 0;
     /* Height of the footer*/ 
-    height: 100px;
+   
     border: 2px solid rgb(191, 152, 52);
    
 }
