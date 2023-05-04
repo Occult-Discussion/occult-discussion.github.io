@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Login Page</title>
-    
-<meta name="viewport" content=
+    <meta charset="UTF-8">
+     <meta name="viewport" content=
             "initial-scale=0.4; 
             maximum-scale=1.0" />
-<link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Occult Discussion Group</title>
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
@@ -17,7 +15,12 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-    <style>
+
+ 
+    
+    
+    
+<style>
 a:link {
     color: rgb(191, 152, 52);
     text-decoration: none;
@@ -330,218 +333,162 @@ footer {
   width: 35%; /* Change width to 150% when image is expanded */
   height: auto;
 }
-        
-        
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-
-.login-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin-top: 50px; /* Add top margin */
-top: 50%; /* Add top: 50% */
-  
- transform: translate(-00%, -27%); /* Change -50%, -50% to -50%, -70% */
-    flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-        
-
-
-h1 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.login-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-input[type="password"] {
-  display: block;
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 10px;
-  font-size: 1.2rem;
-  border: none;
-  background: #f0f0f0;
-  border-radius: 5px;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  font-size: 1.2rem;
-  background: #2ecc71;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background: #27ae60;
-}     
-        
-
-.glow {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  background: linear-gradient(to right, #d4af37, #d4af37 75%, transparent 65%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-origin: content-box;
-  animation: glow 1s ease-in-out infinite alternate, wave-x 2s ease-in-out infinite alternate;
-  position: absolute; 
-  left: -10%; /* Add this */
-  top: 25%;
- font-style: italic
-}
-        
-.glow1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  background: linear-gradient(to right, #d4af37, #d4af37 75%, transparent 65%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-origin: content-box;
-  animation: glow 1s ease-in-out infinite alternate, wave-x 2s ease-in-out infinite alternate;
-  position: absolute; 
-  left: -10%; /* Add this */
-  top: 30%;
-  font-style: italic
-    
-}
-
-
-@keyframes wave {
-  0% {
-    transform: translate(0, -50%);
-  }
-  100% {
-    transform: translate(-100%, -50%);
-  }
-}
-
-@keyframes wave-reverse {
-  0% {
-    transform: translate(0, -50%);
-  }
-  100% {
-    transform: translate(100%, -50%);
-  }
-}
-
-@keyframes glow {
-  0%,
-  100% {
-    text-shadow: 0 0 10px #d4af37, 0 0 20px #d4af37, 0 0 30px #d4af37, 0 0 40px #d4af37, 0 0 50px #d4af37, 0 0 60px #d4af37, 0 0 70px #d4af37, 0 0 80px #d4af37, 0 0 90px #d4af37;
-  }
-  50% {
-    text-shadow: none;
-  }
-}
-
-@keyframes wave-x {
-  0% {
-    transform: translateX(-10px);
-  }
-  50% {
-    transform: translateX(10px);
-  }
-  100% {
-    transform: translateX(-10px);
-  }
-}
     
 </style>
-    
-    
-    
-    
-</head>
+</head>    
 
-<body>
-<div id="container">   
-     <header>
+<body style="visibility: hidden;" class="no-js">
+     <script>
+        document.querySelector('body').classList.remove('no-js');
+    </script>
+    <div id="container">
+        <header>
             <div id="banner">
             </div>
-
+            <div id="logo">
+                <a href="home.html">
+                    <img src="images/baphomet1.png" alt="Head of the Baphomet from the drawing of Eliphas Levi ">
+                </a>
+            </div>
+        <img class="cat" src="images/hcats2.gif">
         </header> 
 
 <h1 class="luminari">Occult Discussion - Book Club</h1>
 
-
-    
-    
-    
-    
-    
-  <div class="login-container">
-   
-      <p class="glow">Apollo, fickle god of light,</p>
-      <p class="glow1">Smitten by his high priestess bright.</p>
-      
-    <form class="login-form" method="post" onsubmit="return checkPassword()">
-      <input type="password" placeholder="Password" name="password" id="password">
-      <input type="submit" value="Login">
-    </form>
-  </div>
-    
-    
-    
-    
-    
-    
+<nav>
+<hr>
+    <button class="button1" onclick="location.href='home.html';">
+        Home
+    </button>
+    <div class="dropdown">
+        <button class="button1" onclick="location.href='topics/index.html';">
+            Topics
+        </button>
+        <div class="dropdown-content">
+            <a href="topics/necromancy.html">Necromancy</a>
+        </div>
     </div>
+    <div class="dropdown">  
+        <button class="button1" onclick="location.href='guides/index.html';">
+            Guides
+        </button>
+        <div class="dropdown-content">
+            <a href="guides/research-guides.html">Research Guides</a>
+            <a href="guides/study-guides.html">Study Guides</a>
+        </div>
+    </div>      
+     <div class="dropdown">    
+        <button class="button1" onclick="location.href='resources/index.html';">
+            Resources
+        </button> 
+        <div class="dropdown-content">
+            <a href="resources/electronic-resources.html">Electronic Resources</a>
+            <a href="resources/glossary.html">Glossary</a>
+            <a href="sources.html">Sources</a>
+        </div>
+    </div>   
+</nav>
+        
+<main> 
+<div class="gallery">
+  <div class="gallery-row">
+    <img src="image1.jpg" alt="Image 1" onclick="expandImage(this)">
+    <img src="image2.jpg" alt="Image 2" onclick="expandImage(this)">
+    <img src="image3.jpg" alt="Image 3" onclick="expandImage(this)">
+  </div>
+  <div class="gallery-row">
+    <img src="image4.jpg" alt="Image 4" onclick="expandImage(this)">
+    <img src="image5.jpg" alt="Image 5" onclick="expandImage(this)">
+    <img src="image6.jpg" alt="Image 6" onclick="expandImage(this)">
+  </div>
+  <div class="gallery-row">
+    <img src="image7.jpg" alt="Image 7" onclick="expandImage(this)">
+    <img src="image8.jpg" alt="Image 8" onclick="expandImage(this)">
+    <img src="image9.jpg" alt="Image 9" onclick="expandImage(this)">
+  </div>
+</div>
+    
+</main>
+</div>
     
     
     
     
     
-  <script>
-    function checkPassword() {
-      let password = document.getElementById('password').value;
-      if (password === 'mypassword') { // Change 'mypassword' to your desired password
-        return true;
-      } else {
-        alert('Incorrect password!');
-        return false;
-      }
-    }
-      
-function checkPassword() {
-  let password = document.getElementById('password').value;
-  if (password === 'mypassword') { // Change 'mypassword' to your desired password
-    window.location.href = 'home.html'; // Replace 'home.html' with the URL of your home page
-    return false; // Return false to prevent the form from submitting
+    
+    
+    <footer>
+
+<ul id="footer_nav">
+    <li>
+        <a class="foothov" href="topics/index.html"> Topics</a>
+        &#013;
+        -
+    </li>
+    
+    <li>
+        <a class="foothov" href="guides/index.html">Guides</a>
+        &#013;
+        -
+    </li>
+   
+    <li>
+        <a class="foothov" href="resources/index.html">Resources</a>
+        &#013;
+    </li>
+</ul> 
+<ul id="footer_nav2">
+    <li>
+        <a class="foothov" href="home.html">Home</a>
+        &#013;
+        -
+    </li>
+    <li>
+        <a class="foothov" href="about.html">About</a>
+        &#013;
+         -
+    </li>
+    <li>
+        <a class="foothov" href="sitemap.html">Sitemap</a>
+        &#013;
+         -
+    </li>
+     <li>
+        <a class="foothov" href="sources.html">Sources</a>
+    </li>
+</ul>
+  <a id="top-button" href="#top">Back to Top</a>
+    </footer>
+    
+
+        <script>
+    // Helper function
+let domReady = (cb) => {
+  document.readyState === 'interactive' || document.readyState === 'complete'
+    ? cb()
+    : document.addEventListener('DOMContentLoaded', cb);
+};
+
+domReady(() => {
+  // Display body when DOM is loaded
+  document.body.style.visibility = 'visible';
+});
+
+            
+function expandImage(image) {
+  if (image.style.width === "35%") { // If the image is already expanded
+    image.style.width = "32%"; // Return to original size
   } else {
-    alert('Incorrect password!');
-    return false;
+    image.style.width = "35%"; // Expand to 150% size
   }
 }
-  </script>
-</body>
 
+       
+    </script>
+    
+ <noscript><style>body { visibility: visible; }</style></noscript>   
+    </body>
 </html>
+
+    
+     
