@@ -333,6 +333,20 @@ footer {
   width: 35%; /* Change width to 150% when image is expanded */
   height: auto;
 }
+
+div.book-summary { 
+    border: 1px solid gold; 
+    padding: 10px; 
+    margin-bottom: 10px;
+  
+}   
+    
+.book-cover {
+    width: 250px;
+    height: 350px;
+}
+    
+
     
 </style>
 </head>    
@@ -364,18 +378,11 @@ footer {
         <button class="button1" onclick="location.href='topics/index.html';">
             Topics
         </button>
-        <div class="dropdown-content">
-            <a href="topics/necromancy.html">Necromancy</a>
-        </div>
     </div>
     <div class="dropdown">  
-        <button class="button1" onclick="location.href='guides/index.html';">
-            Guides
+        <button class="button1" onclick="location.href='books/index.html';">
+            Books
         </button>
-        <div class="dropdown-content">
-            <a href="guides/research-guides.html">Research Guides</a>
-            <a href="guides/study-guides.html">Study Guides</a>
-        </div>
     </div>      
      <div class="dropdown">    
         <button class="button1" onclick="location.href='resources/index.html';">
@@ -390,7 +397,7 @@ footer {
 </nav>
         
 <main> 
-<div class="gallery">
+<!--<div class="gallery">
   <div class="gallery-row">
     <img src="image1.jpg" alt="Image 1" onclick="expandImage(this)">
     <img src="image2.jpg" alt="Image 2" onclick="expandImage(this)">
@@ -406,13 +413,56 @@ footer {
     <img src="image8.jpg" alt="Image 8" onclick="expandImage(this)">
     <img src="image9.jpg" alt="Image 9" onclick="expandImage(this)">
   </div>
+
+     <div class="gallery-row">
+    <img src="image1.jpg" alt="Image 1" onclick="expandImage(this, 'page1.html')">
+    <img src="image2.jpg" alt="Image 2" onclick="expandImage(this, 'page2.html')">
+    <img src="image3.jpg" alt="Image 3" onclick="expandImage(this, 'page3.html')">
+  </div>
+  <div class="gallery-row">
+    <img src="image4.jpg" alt="Image 4" onclick="expandImage(this, 'page4.html')">
+    <img src="image5.jpg" alt="Image 5" onclick="expandImage(this, 'page5.html')">
+    <img src="image6.jpg" alt="Image 6" onclick="expandImage(this, 'page6.html')">
+  </div>
+  <div class="gallery-row">
+    <img src="image7.jpg" alt="Image 7" onclick="expandImage(this, 'page7.html')">
+    <img src="image8.jpg" alt="Image 8" onclick="expandImage(this, 'page8.html')">
+    <img src="image9.jpg" alt="Image 9" onclick="expandImage(this, 'page9.html')">
+  </div>
+
+</div>
+-->
+<h2 style="margin-left: -81px;">Currently Reading :</h2>
+<div class="book-summary">
+    <img src="images/sorceryorsciencecover.jpg" class="book-cover">
+    <div class="book-info" style="margin-top: -355px; margin-left: 175px; display: inline-block; vertical-align: top;">
+        <h2 style="margin-top: -1px;margin-left: 75px;">Sorcery or Science?: Contesting Knowledge and Practice in West African Sufi Texts - Ariela Marcus-Sells</h2>
+        <p style="margin-left: 75px;">Sorcery or Science? examines how two Sufi Muslim theologians who rose to prominence in the western Sahara Desert in the late eighteenth century, Sīdi al-Mukhtār al-Kuntī (d. 1811) and his son and successor, Sīdi Muḥammad al-Kuntī (d. 1826), decisively influenced the development of Sufi Muslim thought in West Africa.
+        <br>
+        <br>
+        Known as the Kunta scholars, Mukhtār al-Kuntī and Muḥammad al-Kuntī were influential teachers who developed a pedagogical network of students across the Sahara. In exploring their understanding of “the realm of the unseen”―a vast, invisible world that is both surrounded and interpenetrated by the visible world―Ariela Marcus-Sells reveals how these theologians developed a set of practices that depended on knowledge of this unseen world and that allowed practitioners to manipulate the visible and invisible realms. They called these practices “the sciences of the unseen.” While they acknowledged that some Muslims―particularly self-identified “white” Muslim elites―might consider these practices to be “sorcery,” the Kunta scholars argued that these were legitimate Islamic practices. Marcus-Sells situates their ideas and beliefs within the historical and cultural context of the Sahara Desert, surveying the cosmology and metaphysics of the realm of the unseen and the history of magical discourses within the Hellenistic and Arabo-Islamic worlds.
+        <br>
+        <br>
+        Erudite and innovative, this volume connects the Islamic sciences of the unseen with the reception of Hellenistic discourses of magic and proposes a new methodology for reading written devotional aids in historical context. It will be welcomed by scholars of magic and specialists in Africana religious studies, Islamic occultism, and Islamic manuscript culture.</p>
+    </div>
+</div>
+<h2 style="margin-left: -81px;">Last Read :</h2>
+<div class="book-summary">
+    <img src="images/Paradise.jpg" class="book-cover">
+    <div class="book-info" style="display: inline-block; vertical-align: top;">
+        <h2 style="margin-top: -1px;">Paradiso - Dante's Divine Comedy - Dante</h2>
+        <p>Dante ascends to the celestial realm in Paradiso, guided by Beatrice. He explores the nine spheres of Heaven, encountering various blessed souls who reveal deeper insights into divine wisdom, love, and the nature of God. Dante's journey symbolizes the soul's ascent towards union with God, exploring themes of faith, reason, divine illumination, and the ultimate goal of human existence. 
+        <br>
+        <br>
+        The Paradiso showcases Dante's visionary and philosophical exploration of theological concepts, blending Christian theology with classical and medieval thought. It is a culmination of the Divine Comedy, offering a profound exploration of spirituality, metaphysics, and the nature of divine transcendence.</p>
+    </div>
 </div>
     
 </main>
 </div>
     
     
-    
+
     
     
     
@@ -427,7 +477,7 @@ footer {
     </li>
     
     <li>
-        <a class="foothov" href="guides/index.html">Guides</a>
+        <a class="foothov" href="books/index.html">Books</a>
         &#013;
         -
     </li>

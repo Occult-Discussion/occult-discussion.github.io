@@ -124,11 +124,13 @@ hr {
     line-height: 14px;  
 }
 li { 
-    padding: 5px 5px;   
+    padding: 5px 5px; 
+  margin-bottom: 10px;
+
 } 
 ul {
     list-style: none;
-    display:flex;
+    display:inline-block;
     justify-content: center;
     padding-left: 10px;
 }
@@ -295,6 +297,7 @@ margin-right:auto;
 margin-top: 55px;
 }
     
+    
 </style>
 </head>    
 
@@ -324,18 +327,11 @@ margin-top: 55px;
         <button class="button1" onclick="location.href='topics/index.html';">
             Topics
         </button>
-        <div class="dropdown-content">
-            <a href="topics/necromancy.html">Necromancy</a>
-        </div>
     </div>
     <div class="dropdown">  
-        <button class="button1" onclick="location.href='guides/index.html';">
-            Guides
+        <button class="button1" onclick="location.href='books/index.html';">
+            Books
         </button>
-        <div class="dropdown-content">
-            <a href="guides/research-guides.html">Research Guides</a>
-            <a href="guides/study-guides.html">Study Guides</a>
-        </div>
     </div>      
      <div class="dropdown">    
         <button class="button1" onclick="location.href='resources/index.html';">
@@ -348,20 +344,27 @@ margin-top: 55px;
         </div>
     </div>   
 </nav>
-
-
 <main> 
 
     <div id="content">
-             <h2>Coming Together:</h2>
-    <p style=" ">Hello, this is my website.</p>   
-            <p style=" ">Hello, this is my website.</p>    
-    <p style=" ">Hello, this is my website.</p>    
-    <p style=" ">Hello, this is my website.</p>    
-    <p style=" ">Hello, this is my website.</p>    
-    <p style=" ">Hello, this is my website.</p>    
-    <p style=" ">Hello, this is my website.</p>    
-    <p style=" ">Hello, this is my website.</p>   
+   <ul>
+        <li style="display: block"><a href="home.html">Home</a></li>
+        <li style="display: block"><a href="about.html">About</a></li>
+        <li style="display: block"><a href="sitemap.html">Sitemap</a></li>
+     
+        <li style="display: block"><a href="topics/index.html">Topics</a></li>
+        <li style="display: block"><a href="books/index.html">Books</a></li>
+        <li style="display: block;"><a href="resources/index.html">Resources</a>
+       <ul style="display: block; padding-top: 15px;">
+           <li><a href="resources/electronic-resources.html">Electronic Resources</a></li>
+            <li><a href="resources/glossary.html">Glossary</a></li>
+            <li><a href="sources.html">Sources</a></li>
+        </ul>
+       </li>
+    </ul>
+        
+
+        
     </div>
         </main>
 
@@ -379,7 +382,7 @@ margin-top: 55px;
     </li>
     
     <li>
-        <a class="foothov" href="guides/index.html">Guides</a>
+        <a class="foothov" href="books/index.html">Books</a>
         &#013;
         -
     </li>
